@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "prestart": "start& cd server& npm start",
-    "start": "start& cd client& npm start",
     "test": "",
-    "mongodb": "start& cd server& npm run mongodb",
-    "dev-client": "cd client& npm start",
-    "dev-server": "cd server& npm run dev",
+    "mongodb": "cd server& npm run mongodb",
+    "start-client": "cd client& npm start",
+    "start-server": "cd server& npm start",
     "install-client": "cd client& npm install",
     "install-server": "cd server& npm install"
   }
