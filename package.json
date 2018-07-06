@@ -8,6 +8,8 @@
     "test": "",
     "mongodb": "start& cd server& npm run mongodb",
     "dev-client": "cd client& npm start",
-    "dev-server": "cd server& npm run dev"
+    "dev-server": "cd server& npm run dev",
+    "install-client": "cd client& npm install",
+    "install-server": "cd server& npm install"
   }
 }
